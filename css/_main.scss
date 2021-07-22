@@ -1,0 +1,32 @@
+main {
+    max-width: $ancho-maximo;
+    margin: 0 auto;
+    .heroe {
+
+        background-image: url(../img/wireframe.svg);
+        background-position: right center;
+        background-size: 500px;
+        background-repeat: no-repeat;
+        .heroe-text {
+            max-width: 500px;
+            display: flex;
+            flex-direction: column;
+        h2 {
+            font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+            font-size: 55px;
+            line-height: 70px;
+            letter-spacing: 10px;
+            &::before {
+                content:"";
+                height: 50px;
+                width: 300px;
+                background-color: cyan;
+                z-index: -1;
+                position: absolute;
+
+            }
+        }
+     
+    }
+    }
+}
